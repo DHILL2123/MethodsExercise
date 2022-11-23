@@ -1,9 +1,9 @@
-﻿using Internal;
-
-namespace MethodsExercise
+﻿namespace MethodsExercise
 {
     public class Program
     {
+        // Exercise 1 Creating User Profile
+
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
@@ -46,7 +46,13 @@ namespace MethodsExercise
 
             Console.WriteLine($"Reside: {liveIn}");
 
+            // Exercise 2 Calling Methods
 
+            Methods.Add(5, 10, 10);
+            Methods.Subtract(10, 10);
+            Methods.Multiply(10, 20);
+            Methods.Divide(200, 2);
+            Methods.Modulus(100, 9);
         }
     }
 }
